@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testFlogoApi
+  description: ''
+  tags:
+    - flogo
+  links:
+    - title: TIBCO Flogo Enterprise
+      url: https://docs.tibco.com/products/tibco-flogo-enterprise
+  annotations:
+    github.com/project-slug: https://github.com/tibcoeducation/ImportFlogoAppRepo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: flogo
+  lifecycle: production
+  owner: group:default/tibco-imported
